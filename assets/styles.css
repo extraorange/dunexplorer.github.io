@@ -1,0 +1,79 @@
+body {
+    background-image: url(background.png);
+    background-color: rgb(188, 169, 147);
+    background-attachment: fixed;
+    background-size: 100% 101%;
+}
+
+h1, h3, p {
+    color: rgb(27, 27, 27);
+}
+
+p {
+    font-style: italic;
+}
+
+.intro {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: left;
+    display: block;
+    width: 80%;
+    margin: 0 0 0 0;
+    padding: 5vh 0 0 3%;
+}
+
+.message {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    margin: 0%;
+    padding: 10vh 5%;
+}
+
+.menu {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    display: block;
+    width: 75%;
+    margin: auto;
+    padding: 0 0 5vh 0;
+    
+}
+
+#menu li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+a:link, a:visited  {
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 81, 0);
+}
+
+.avatar img {
+    display: block;
+    border: rgb(27, 27, 27) 3px solid;
+    margin: 5vh auto;
+    max-width: 25vh;
+    box-shadow: rgb(42, 42, 42) 5px 5px;
+}
+
+.avatar p {d
+    display:block;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 12px;
+    margin: -40px auto;
+}
+
+.avatar img:hover {
+    box-shadow: rgb(255, 81, 0) 5px 5px
+}
