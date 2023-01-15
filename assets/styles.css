@@ -68,7 +68,7 @@ a:hover {
     display: block;
     border: rgb(27, 27, 27) 3px solid;
     margin: 75px auto;
-    max-width: 250px;
+    max-width: 30vh;
     box-shadow: rgb(42, 42, 42) 5px 5px;
 }
 
