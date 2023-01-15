@@ -37,7 +37,7 @@ p {
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     display: block;
-    width: 75%;
+    width: 80%;
     margin: auto;
     padding: 0 0 5vh 0;
     
@@ -66,7 +66,7 @@ a:hover {
     box-shadow: rgb(42, 42, 42) 5px 5px;
 }
 
-.avatar p {d
+.avatar p {
     display:block;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
