@@ -1,6 +1,7 @@
 body {
     background-image: url(background.png);
-    background-color: rgb(188, 169, 147);
+    /* background-color: rgb(188, 169, 147); */
+    background-color: rgb(67, 86, 108);
     background-attachment: fixed;
     background-size: 100% 101%;
 }
@@ -21,30 +22,37 @@ p {
     display: block;
     width: 80%;
     margin: 0 0 0 0;
-    padding: 5vh 0 0 3%;
+    padding: 5vh 0 0 5%;
 }
 
 .message {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     margin: 0%;
     padding: 10vh 5%;
 }
 
 .menu {
+    font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     display: block;
-    width: 80%;
+    width: 90%;
     margin: auto;
-    padding: 0 0 5vh 0;
-    
+    padding: 0 10% 5vh 0;
 }
 
 #menu li {
     display: inline;
     list-style-type: none;
-    padding: 0 10px;
+    margin: 0px 2%;
+    padding: 0px 10px;
+    background-color:rgb(188, 169, 147);
+    box-shadow: rgb(42, 42, 42) 5px 5px
+}
+
+#menu li:hover {
+    box-shadow: rgb(255, 81, 0) 5px 5px
 }
 
 a:link, a:visited  {
