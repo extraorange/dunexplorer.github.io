@@ -36,9 +36,9 @@ p {
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     display: block;
-    width: 95%;
+    width: 80%;
     margin: auto;
-    padding: 0 100px 10px 0;
+    padding: 0 100px 10px 0px;
 }
 
 #menu li {
@@ -67,8 +67,8 @@ a:hover {
 .avatar img {
     display: block;
     border: rgb(27, 27, 27) 3px solid;
-    margin: 5vh auto;
-    max-width: 25vh;
+    margin: 75px auto;
+    max-width: 250px;
     box-shadow: rgb(42, 42, 42) 5px 5px;
 }
 
@@ -76,7 +76,7 @@ a:hover {
     display:block;
     text-align: center;
     font-size: 12px;
-    margin: -40px auto;
+    margin: -60px auto;
 }
 
 .avatar img:hover {
