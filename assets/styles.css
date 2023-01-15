@@ -29,8 +29,8 @@ p {
     font-weight: 400;
     font-size: 14px;
     text-align: center;
-    margin: 0%;
-    padding: 10vh 5%;
+    margin: 0;
+    padding: 5% 5% 10% 5%;
 }
 
 .menu {
@@ -39,7 +39,7 @@ p {
     display: block;
     width: 90%;
     margin: auto;
-    padding: 0 10% 5vh 0;
+    padding: 0 10% 10% 0;
 }
 
 #menu li {
