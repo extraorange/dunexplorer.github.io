@@ -21,8 +21,7 @@ p {
     text-align: left;
     display: block;
     width: 80%;
-    margin: 0 0 0 0;
-    padding: 5vh 0 0 5%;
+    padding: 5vh 0 0 50px;
 }
 
 .message {
@@ -30,22 +29,23 @@ p {
     font-size: 14px;
     text-align: center;
     margin: 0;
-    padding: 5% 5% 10% 5%;
+    padding: 50px 0 50px 5px ;
 }
 
 .menu {
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     display: block;
-    width: 90%;
+    width: 95%;
     margin: auto;
-    padding: 0 10% 10% 0;
+    padding: 0 100px 10px 0;
 }
 
 #menu li {
     display: inline;
     list-style-type: none;
-    margin: 0px 2%;
+    text-align: center;
+    margin: 0px 15px;
     padding: 0px 10px;
     background-color:rgb(188, 169, 147);
     box-shadow: rgb(42, 42, 42) 5px 5px
