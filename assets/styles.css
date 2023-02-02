@@ -106,6 +106,10 @@ a:hover {
         box-sizing: border-box;
     }
 
+    body {
+        height: 110%;
+    }
+
     header {
         width: 100%;
         padding: 5% 0 0 0;
