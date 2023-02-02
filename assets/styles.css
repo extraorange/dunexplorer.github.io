@@ -80,7 +80,6 @@ a:hover {
     display: block;
     border: rgb(27, 27, 27) 3px solid;
     margin: 75px auto;
-    max-width: 30vh;
     box-shadow: rgb(42, 42, 42) 5px 5px;
 }
 
@@ -156,12 +155,19 @@ a:hover {
     }
 
     .avatar {
+        display: flexbox;
         padding: 0;
-        margin: 0;
+        margin: 0 10px;
     }
 
-    img {
+    .avatar img {
         padding: 0;
-        margin: 0 0 100px 0;
+        margin: 10px auto;
+        width: 70%;
+    }
+
+    .avatar p {
+        margin: 0;
+        padding: 0;
     }
 }
