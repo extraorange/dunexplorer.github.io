@@ -7,45 +7,19 @@
 body {
     background-image: url(background.png);
     background-color: rgb(67, 86, 108);
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    size: 100vh 100vh;
-}
-
-.container {
-    height: 100vh;
-}
-
-header {
-    margin-top: 40px;
-    height: 50px;
-    background-color: rgb(255, 126, 0);
 }
 
 
 h3 {
-    font-weight: 700;
-    font-size: 38px;
-    text-align: center;
     font-family: 'Roboto Mono', monospace;
 }
 
-<<<<<<< HEAD
-=======
 p {
     color: rgb(27, 27, 27);
     font-family: 'Roboto Mono', monospace;
-}
-
-p {
-<<<<<<< HEAD
-=======
-    color: rgb(27, 27, 27);
-    font-family: 'Roboto Mono', monospace;
-}
-
-p {
->>>>>>> parent of c397a20 (Color adjusments & misc)
     font-style: italic;
 }
 
@@ -58,54 +32,35 @@ header {
     padding: 5vh 0 0 50px;
 }
 
->>>>>>> parent of c397a20 (Color adjusments & misc)
 .message {
-    margin: 70px auto;
-    padding: 0;
-    width: 600px;
-}
-
-.message p {
-    color: rgb(27, 27, 27);
-    font-family: 'Roboto Mono', monospace;
-    font-size: 16px;
-    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
     text-align: center;
-    text-shadow: 1px 1px rgb(42, 42, 42);
-    display: flex;
+    margin: 0;
+    padding: 50px 0 50px 5px;
 }
 
-.menu {
-    width: 75%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+nav {
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 0 100px 10px 0px;
 }
 
 .menu li {
     display: inline;
     list-style-type: none;
     text-align: center;
-    padding: 0 10px;
-    margin: 10px 20px;
+    margin: 0px 15px;
+    padding: 0px 10px;
     background-color: rgb(188, 169, 147);
     box-shadow: rgb(42, 42, 42) 5px 5px
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.menu li:hover {
+#menu li:hover {
     box-shadow: rgb(255, 126, 0) 5px 5px
-=======
-#menu li:hover {
-    box-shadow: rgb(255, 81, 0) 5px 5px
->>>>>>> parent of c397a20 (Color adjusments & misc)
-=======
-#menu li:hover {
-    box-shadow: rgb(255, 81, 0) 5px 5px
->>>>>>> parent of c397a20 (Color adjusments & misc)
 }
 
 a:link,
@@ -114,48 +69,30 @@ a:visited {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-=======
 a:hover {
-    color: rgb(255, 81, 0);
+    color: rgb(255, 126, 0)
 }
 
->>>>>>> parent of c397a20 (Color adjusments & misc)
 .avatar img {
     display: block;
     border: rgb(27, 27, 27) 3px solid;
-    width: 400px;
     margin: 75px auto;
     box-shadow: rgb(42, 42, 42) 5px 5px;
-    animation-name: pulse-border;
-    animation-delay: 1s;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
 }
 
 .avatar p {
-    position: relative;
     display: block;
     text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 14px;
-    margin: -40px auto;
+    font-size: 12px;
+    margin: -60px auto;
 }
 
 .avatar img:hover {
-    box-shadow: rgb(255, 81, 0) 5px 5px
+    box-shadow: rgb(255, 126, 0) 5px 5px
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of c397a20 (Color adjusments & misc)
-#at {
-    color: rgb(188, 169, 147);
-}
+@media only screen and (max-device-width: 720px) {}
 
->>>>>>> parent of c397a20 (Color adjusments & misc)
 @media only screen and (max-device-width: 480px) {
 
     * {
@@ -164,19 +101,20 @@ a:hover {
         box-sizing: border-box;
     }
 
-    body {
-        height: 90%;
+    .container {
+        height: 100vh;
     }
 
     header {
         width: 100%;
         padding: 5% 0 0 0;
+        margin: 0 0;
     }
 
     header h3 {
         font-size: 38px;
         text-align: center;
-        background-color: rgb(255, 81, 0)
+        background-color: rgb(255, 126, 0)
     }
 
     .message {
@@ -195,7 +133,7 @@ a:hover {
     }
 
     .message p:hover {
-        text-shadow: 1px 1px rgb(255, 81, 0);
+        text-shadow: 1px 1px rgb(255, 126, 0)
     }
 
     nav {
@@ -243,7 +181,7 @@ a:hover {
     }
 
     50% {
-        box-shadow: rgb(255, 81, 0) 5px 5px
+        box-shadow: rgb(255, 126, 0) 5px 5px
     }
 
     100% {
