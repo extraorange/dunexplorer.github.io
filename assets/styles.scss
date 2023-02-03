@@ -1,3 +1,9 @@
+$orange: rgb(255, 126, 0);
+$blue: rgb(67, 86, 108);
+$coal: rgb(27, 27, 27);
+$beige: rgb(188, 169, 147);
+$font-main: 'Roboto Mono', monospace;
+
 * {
     margin: 0;
     padding: 0;
@@ -6,99 +12,92 @@
 
 body {
     background-image: url(background.png);
-    background-color: rgb(67, 86, 108);
+    background-color: $blue;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    size: 100vh 100vh;
-}
-
-.container {
-    height: 100vh;
-}
-
-header {
-    margin-top: 40px;
-    height: 50px;
-    background-color: rgb(255, 126, 0);
 }
 
 
 h3 {
-    font-weight: 700;
-    font-size: 38px;
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
+    font-family: $font-main
+}
+
+p {
+    color: $coal;
+    font-family: $font-main;
+    font-style: italic;
+}
+
+header {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: left;
+    display: block;
+    width: 80%;
+    padding: 5vh 0 0 50px;
 }
 
 .message {
-    margin: 70px auto;
-    padding: 0;
-    width: 600px;
-}
-
-.message p {
-    color: rgb(27, 27, 27);
-    font-family: 'Roboto Mono', monospace;
-    font-size: 16px;
-    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
     text-align: center;
-    text-shadow: 1px 1px rgb(42, 42, 42);
-    display: flex;
+    margin: 0;
+    padding: 50px 0 50px 5px;
 }
 
-.menu {
-    width: 75%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: 'Roboto Mono', monospace;
+nav {
+    font-family: $font-main;
     font-weight: 700;
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 0 100px 10px 0px;
 }
 
 .menu li {
     display: inline;
     list-style-type: none;
     text-align: center;
-    padding: 0 10px;
-    margin: 10px 20px;
-    background-color: rgb(188, 169, 147);
-    box-shadow: rgb(42, 42, 42) 5px 5px
+    margin: 0px 15px;
+    padding: 0px 10px;
+    background-color: $beige;
+    box-shadow: $coal 5px 5px
 }
 
-.menu li:hover {
-    box-shadow: rgb(255, 126, 0) 5px 5px
+#menu li:hover {
+    box-shadow: $orange 5px 5px
 }
 
 a:link,
 a:visited {
-    color: rgb(27, 27, 27);
+    color: $coal;
     text-decoration: none;
+}
+
+a:hover {
+    color: $orange
 }
 
 .avatar img {
     display: block;
-    border: rgb(27, 27, 27) 3px solid;
-    width: 400px;
     margin: 75px auto;
-    box-shadow: rgb(42, 42, 42) 5px 5px;
-    animation-name: pulse-border;
-    animation-delay: 1s;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    border: $coal 3px solid;
+    box-shadow: $coal 5px 5px;
 }
 
 .avatar p {
-    position: relative;
     display: block;
     text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 14px;
-    margin: -40px auto;
+    font-size: 12px;
+    margin: -60px auto;
 }
 
 .avatar img:hover {
     box-shadow: rgb(255, 126, 0) 5px 5px
 }
+
+@media only screen and (max-device-width: 720px) {}
 
 @media only screen and (max-device-width: 480px) {
 
@@ -121,7 +120,7 @@ a:visited {
     header h3 {
         font-size: 38px;
         text-align: center;
-        background-color: rgb(255, 126, 0)
+        background-color: $orange
     }
 
     .message {
@@ -136,11 +135,11 @@ a:visited {
         font-weight: 700;
         text-align: center;
         text-transform: uppercase;
-        text-shadow: 1px 1px rgb(42, 42, 42);
+        text-shadow: 1px 1px $coal
     }
 
     .message p:hover {
-        text-shadow: 1px 1px rgb(255, 126, 0)
+        text-shadow: 1px 1px $orange
     }
 
     nav {
