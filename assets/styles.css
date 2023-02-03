@@ -30,6 +30,27 @@ h3 {
     font-family: 'Roboto Mono', monospace;
 }
 
+<<<<<<< HEAD
+=======
+p {
+    color: rgb(27, 27, 27);
+    font-family: 'Roboto Mono', monospace;
+}
+
+p {
+    font-style: italic;
+}
+
+header {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: left;
+    display: block;
+    width: 80%;
+    padding: 5vh 0 0 50px;
+}
+
+>>>>>>> parent of c397a20 (Color adjusments & misc)
 .message {
     margin: 70px auto;
     padding: 0;
@@ -65,8 +86,13 @@ h3 {
     box-shadow: rgb(42, 42, 42) 5px 5px
 }
 
+<<<<<<< HEAD
 .menu li:hover {
     box-shadow: rgb(255, 126, 0) 5px 5px
+=======
+#menu li:hover {
+    box-shadow: rgb(255, 81, 0) 5px 5px
+>>>>>>> parent of c397a20 (Color adjusments & misc)
 }
 
 a:link,
@@ -75,6 +101,13 @@ a:visited {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+a:hover {
+    color: rgb(255, 81, 0);
+}
+
+>>>>>>> parent of c397a20 (Color adjusments & misc)
 .avatar img {
     display: block;
     border: rgb(27, 27, 27) 3px solid;
@@ -97,9 +130,16 @@ a:visited {
 }
 
 .avatar img:hover {
-    box-shadow: rgb(255, 126, 0) 5px 5px
+    box-shadow: rgb(255, 81, 0) 5px 5px
 }
 
+<<<<<<< HEAD
+=======
+#at {
+    color: rgb(188, 169, 147);
+}
+
+>>>>>>> parent of c397a20 (Color adjusments & misc)
 @media only screen and (max-device-width: 480px) {
 
     * {
@@ -108,20 +148,19 @@ a:visited {
         box-sizing: border-box;
     }
 
-    .container {
-        height: 100vh;
+    body {
+        height: 90%;
     }
 
     header {
         width: 100%;
         padding: 5% 0 0 0;
-        margin: 0 0;
     }
 
     header h3 {
         font-size: 38px;
         text-align: center;
-        background-color: rgb(255, 126, 0)
+        background-color: rgb(255, 81, 0)
     }
 
     .message {
@@ -140,7 +179,7 @@ a:visited {
     }
 
     .message p:hover {
-        text-shadow: 1px 1px rgb(255, 126, 0)
+        text-shadow: 1px 1px rgb(255, 81, 0);
     }
 
     nav {
@@ -188,7 +227,7 @@ a:visited {
     }
 
     50% {
-        box-shadow: rgb(255, 126, 0) 5px 5px
+        box-shadow: rgb(255, 81, 0) 5px 5px
     }
 
     100% {
