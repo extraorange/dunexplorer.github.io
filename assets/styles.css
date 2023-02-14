@@ -173,8 +173,12 @@ a:hover {
         box-shadow: rgb(42, 42, 42) 5px 5px
     }
 
-    50% {
+    33% {
         box-shadow: rgb(255, 126, 0) 5px 5px
+    }
+
+    66% {
+        box-shadow: rgb(241, 241, 241)
     }
 
     100% {
